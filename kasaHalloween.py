@@ -10,9 +10,9 @@ def main(cycle_time):
     deviceID_value = get_deviceID(token)
     y = 0
     for _ in range(cycle_time):
-        #orange is 30
-        #green is 100
-        #purple is 260
+        #spooky orange is 30
+        #spooky green is 100
+        #spooky purple is 260
         colors = [30,100,260]
         
         for z in range(len(colors)):
